@@ -29,3 +29,15 @@ body {
 #flix-title {
   color: red;
 }
+
+#form-description {
+  font-family: "Sorts Mill Goudy", serif;
+  /* font-size: 1.4rem; */
+  font-size: 23px;
+}
+
+#survey-form-container {
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: auto;
+}
