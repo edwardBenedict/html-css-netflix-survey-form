@@ -28,7 +28,39 @@
         <form action="">
           <div class="input-box">
             <label for="name">Name</label><br />
-            <input type="text" name="name" />
+            <input
+              type="text"
+              name="name"
+              class="input-part"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="input-box">
+            <label for="age">Age</label><br />
+            <input
+              type="text"
+              name="age"
+              id="age"
+              class="input-part"
+              placeholder="Enter Your Age"
+            />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label><br />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="input-part"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div class="input-box">
+            <label for="content-type">Content Type</label><br />
+            <select name="content" id="dropdown">
+              <option value="movie">Movie</option>
+              <option value="series" selected>Series</option>
+            </select>
           </div>
         </form>
       </section>

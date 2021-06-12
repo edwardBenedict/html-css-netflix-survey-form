@@ -40,4 +40,17 @@ body {
   max-width: 500px;
   background-color: rgba(0, 0, 0, 0.8);
   margin: auto;
+  padding: 10px;
+}
+
+.input-box {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.input-part,
+#dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
 }
