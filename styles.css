@@ -8,3 +8,24 @@ body {
   color: white;
   background-image: url(./images/netflix-background-image.jpg);
 }
+
+#form-container {
+  width: 1240px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#form-header {
+  text-align: center;
+}
+
+#form-title {
+  color: white;
+  font-size: 3.2rem;
+  font-family: "Bowlby One SC", cursive;
+  letter-spacing: 5px;
+}
+#flix-title {
+  color: red;
+}
